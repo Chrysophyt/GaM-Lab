@@ -1,0 +1,22 @@
+@media(max-width:768px){
+    .flex-container-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;      
+        height: 300px;
+    }
+    
+}
+
+.box-1{
+    flex: 1;
+    order: 1;
+}
+.box-2{
+    flex: 2;
+    order: 2;
+}
+.box-3{
+    flex: 1;
+    order: 3;
+}
