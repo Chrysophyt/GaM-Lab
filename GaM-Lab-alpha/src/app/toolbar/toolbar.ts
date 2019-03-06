@@ -5,4 +5,6 @@ import {Component} from '@angular/core';
   templateUrl: 'toolbar.html',
   styleUrls: ['toolbar.css'],
 })
-export class toolbar {}
+export class toolbar {
+  showFiller = false;
+}

@@ -5,4 +5,6 @@ import {Component} from '@angular/core';
   templateUrl: 'footbar.html',
   styleUrls: ['footbar.css'],
 })
-export class footbar {}
+export class footbar {
+  
+}
