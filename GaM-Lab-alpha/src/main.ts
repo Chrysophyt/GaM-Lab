@@ -15,7 +15,7 @@ import {MaterialModule} from './material-module';
 
 import {toolbar} from './app/toolbar/toolbar';
 import {footbar} from './app/toolbar/footbar';
-
+import {Cards} from './app/cards/cards'
 
 
 @NgModule({
@@ -28,9 +28,9 @@ import {footbar} from './app/toolbar/footbar';
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  entryComponents: [toolbar, footbar],
-  declarations: [toolbar, footbar],
-  bootstrap: [toolbar, footbar],
+  entryComponents: [toolbar, footbar, Cards],
+  declarations: [toolbar, footbar, Cards],
+  bootstrap: [toolbar, footbar, Cards],
   providers: []
 })
 export class AppModule {}
